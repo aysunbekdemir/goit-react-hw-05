@@ -1,0 +1,38 @@
+/* Örnek stil */
+
+.castList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.castItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  background: #f7f7f7;
+  border-radius: 8px;
+  padding: 12px;
+  width: 250px;
+}
+
+.castImg {
+  width: 80px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 6px;
+  background: #e0e0e0;
+}
+
+.character {
+  font-size: 0.95em;
+  color: #555;
+}
+
+.loading, .error {
+  text-align: center;
+  margin: 24px 0;
+  color: #d32f2f;
+}
